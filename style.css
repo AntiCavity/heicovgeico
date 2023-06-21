@@ -71,6 +71,7 @@ a{
     height: 50vh;
     justify-content:center;
     align-items: center;
+    
 }
 
 
@@ -149,3 +150,26 @@ footer {
     background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
 }
 
+.heicovbrown{
+    background: #5B2301;
+}
+
+.heicovgreen{
+    background: #9A8131;
+}
+
+.heicovcover {
+    background-image: url(img/heicovlogonoback.png), url(img/heicovblankbackground.png);
+    background-size:  50vh ,auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #9A8131;
+}
+
+.heicovbackground {
+    background-image: url(img/heicovblankbackground.png);
+    background-size:  auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #9A8131;
+}
